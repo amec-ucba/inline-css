@@ -1,17 +1,23 @@
-# 💻 Assignment Boilerplate
+# 💻 Inline Styling
 
-A starting point for assignment and exercise repos. It includes submission instructions, editor and Git configuration, and a pull request template so every assignment works the same way.
+Starter files for the inline CSS coding exercise in Web Design 1. You will style a page about
+**Apollo**, a social-media-famous British Shorthair cat, using only `style` attributes, publish it
+with GitHub Pages, and then paste your code into a Canvas discussion reply.
+
+This repo also includes the editor and Git configuration and the pull request template that every
+assignment in this course uses.
 
 > [!NOTE]
 > `.editorconfig`, `.gitattributes`, `.gitignore`, `.noai`, and the `.github` folder are
-> setup files that keep assignments consistent. Leave them alone.
+> setup files that keep assignments consistent. Leave them alone. `index.html` and
+> `apollo_01.png` – `apollo_04.png` are your starter content — keep them in the repo.
 
 ## 📋 Assignment Requirements
 
 > [!IMPORTANT]
 > **Start here: [read ASSIGNMENT.md →](ASSIGNMENT.md)**
 
-It has the requirements, grading criteria, and due date. Read it before you start, and check it again before you submit. This `README` only covers how to publish and submit your work.
+It has the overview, a guide to the companion videos in Canvas, the grading criteria, and a final checklist. Read it before you start, and check it again before you submit. This `README` only covers how to publish and submit your work.
 
 ## 🏁 Getting Started
 
@@ -21,7 +27,7 @@ It has the requirements, grading criteria, and due date. Read it before you star
 
      <img src=".github/images/use-this-template.png" alt="The Use this template button at the top right of the repo page" width="600">
    - Set **Owner** to your GitHub account.
-   - Give it a **Repository name** — use the assignment name, like `assignment-1`.
+   - Give it a **Repository name** — use the assignment name, like `inline-css`.
 
      <img src=".github/images/create-repo-name.png" alt="The Create a new repository form with Owner set to your username and the Repository name filled in" width="600">
    - Set visibility to **Public** (GitHub Pages needs a public repo on a free account).
@@ -44,14 +50,18 @@ It has the requirements, grading criteria, and due date. Read it before you star
 ## 📂 Where Your Files Go
 
 Create your files in the **root folder** of this repo — the same folder as this README.
-GitHub Pages publishes from the root, so `index.html` has to live there or your site will 404. Group your assets into subfolders:
+GitHub Pages publishes from the root, so `index.html` has to live there or your site will 404. Your files should look like this:
 
 ```
 index.html
-css/style.css
-js/script.js
-images/photo.jpg
+apollo_01.png
+apollo_02.png
+apollo_03.png
+apollo_04.png
 ```
+
+There is no `css/` folder in this exercise. Every style goes in a `style` attribute inside
+`index.html`, because that's all Canvas allows when you paste your code into the discussion.
 
 ## 🤖 AI Policy
 
@@ -109,7 +119,7 @@ Your work has to be live on the web before you can submit it.
 
 ## 📬 Submitting the Assignment
 
-Submission has two parts: publish the site, then submit a pull request URL in Canvas.
+Submission has two parts: publish the site and open a pull request, then post your styled reply in the Canvas discussion with your pull request URL at the bottom.
 
 1. **Publish to GitHub Pages** using the steps above. Do this first.
 2. **Open a pull request into `main`.**
@@ -136,19 +146,17 @@ Submission has two parts: publish the site, then submit a pull request URL in Ca
      `main`. Don't merge it.
 
      <img src=".github/images/pr-opened.png" alt="An open pull request merging develop into main, with the Open status highlighted" width="600">
-3. **Submit the pull request URL in Canvas.**
+3. **Post your reply in the Canvas discussion.**
    - Copy the pull request URL from your browser's address bar. It looks like
      `https://github.com/<your-username>/<repo-name>/pull/1`.
-   - Open the matching assignment in Canvas and click the red **Start Assignment** button.
-     The page scrolls down to the submission form.
-
-     <img src=".github/images/canvas-start-assignment.png" alt="The Canvas assignment page with the Start Assignment button highlighted" width="600">
-   - On the **Website URL** tab, paste your **pull request URL** into the **Website URL**
-     field. Don't paste your GitHub Pages URL here; that goes in the pull request.
-   - Optional: add a note for your instructor in **Comments**.
-   - Click the red **Submit Assignment** button.
-
-     <img src=".github/images/canvas-submit-url.png" alt="The Canvas Website URL form with a pull request URL entered, a comment for the instructor, and the Submit Assignment button highlighted" width="600">
+   - Open the **CE14: Inline Styling** discussion in Canvas and click the red **Reply**
+     button.
+   - Click the **</>** code view button in the lower-right corner, paste your HTML, upload and
+     style an image of Apollo, as described in [ASSIGNMENT.md](ASSIGNMENT.md#part-2--transfer-to-canvas-and-add-an-image).
+   - At the bottom of your reply, add a line with your **pull request URL**. Don't paste
+     your GitHub Pages URL here; that goes in the pull request.
+   - Click **Reply** to post, then check that your styles and image look right. If not, click
+     **Edit** and fix them in the **</>** code view.
 
 > [!CAUTION]
 > Late or missing submissions are graded on what is in the pull request at the deadline, so push your final commits before you submit.

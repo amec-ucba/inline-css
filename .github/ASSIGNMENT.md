@@ -56,12 +56,12 @@ Need a refresher on how inline CSS works? Rewatch the
 >
 > - **Getting the starter files:** don't download the ZIP. Create your own repo from this
 >   template and open it with GitHub Desktop, as described in the
->   [README](README.md#-getting-started).
+>   [Getting Started guide](GETTING_STARTED.md).
 > - **Publishing:** your styled `index.html` also has to be live on GitHub Pages, with a
->   pull request, as described in the [README](README.md#-publishing-to-github-pages).
+>   pull request, as described in the [Publishing guide](PUBLISHING.md).
 > - **Submitting:** you still post your reply in the Canvas discussion. Add your pull
 >   request URL to the bottom of that reply, as described in the
->   [README](README.md#-submitting-the-assignment).
+>   [Submitting guide](SUBMITTING.md).
 
 ## 🛠️ Steps
 
@@ -91,13 +91,13 @@ Need a refresher on how inline CSS works? Rewatch the
 3. Click the **</>** code view button in the lower-right corner of the editor.
 4. Paste your HTML into the code view.
 5. Upload an image of Apollo to your post. Canvas can't see the image files on your
-   computer, so `src="apollo_01.png"` won't work there. Use Canvas's image upload instead.
+   computer, so `src="../apollo_01.png"` won't work there. Use Canvas's image upload instead.
 6. Go back into the code view and style the image.
 
 ### Part 3 — Post & Review
 
 1. Add your pull request URL to the bottom of your reply (see the
-   [README](README.md#-submitting-the-assignment)).
+   [Submitting guide](SUBMITTING.md)).
 2. Post your reply, then review it to make sure everything looks correct.
 3. If something looks wrong, click **Edit**, go back to the **</>** code view, and fix it.
 
@@ -159,4 +159,4 @@ Need a refresher on how inline CSS works? Rewatch the
 
 ---
 
-The AI policy and submission instructions are in the [README](README.md).
+The AI policy and submission instructions are in the [README](../README.md).

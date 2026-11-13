@@ -55,7 +55,7 @@ Need a refresher on how inline CSS works? Rewatch the
 > CSS, and follow this repo for getting your files and submitting:
 >
 > - **Getting the starter files:** don't download the ZIP. Create your own repo from this
->   template and open it with GitHub Desktop, as described in the
+>   template and clone it in WebStorm, as described in the
 >   [Getting Started guide](GETTING_STARTED.md).
 > - **Publishing:** your styled `index.html` also has to be live on GitHub Pages, with a
 >   pull request, as described in the [Publishing guide](PUBLISHING.md).
